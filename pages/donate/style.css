@@ -79,3 +79,15 @@ header ul {
 .header-designed:hover, .menu-white:hover {
     color: #FE9013;
 }
+
+
+/* Panda */
+
+#panda-img {
+    height: 390px;
+    left: 0px;
+    right: 0px;
+    background-image: url('../../assets/images/panda_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
