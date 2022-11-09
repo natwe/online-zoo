@@ -33,7 +33,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1156px;
+    width: 1160px;
     margin: 0 auto;
 }
 
@@ -87,6 +87,7 @@ header ul {
     height: 390px;
     left: 0px;
     right: 0px;
+    top: 76px;
     background-image: url('../../assets/images/panda_bg.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -96,20 +97,77 @@ header ul {
 /* Middle part */
 
 #middle-part {
-    position: absolute;
     height: 1482px;
     left: 0px;
     right: 0px;
     top: 466px;
+    padding-top: 40px;
     /* orange_gradient */
     background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
 }
 
 #middle-part-content {
-    width: 1156px;
+    width: 1160px;
     margin: 0 auto;
 }
 
-#middle-part-content h2 {
+#middle-part-content-white-text h3 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    width: 1156px;
+    margin-bottom: 10px;
+}
+
+#middle-part-content-white-text {
     color: #FFFFFF;
+}
+
+#middle-part-content-white-text p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    margin-right: 5px;
+    margin-bottom: 40px;
+}
+
+.middle-part-content-orange-text {
+    color: #FE9013;
+}
+
+.middle-part-content-orange-text h3 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    height: 47px;
+    margin-bottom: 60px;
+}
+
+
+/* Pick and feed */
+
+#pick-and-feed {
+    height: 964px;
+    background: rgba(255, 255, 255, 0.52);
+    backdrop-filter: blur(2px);    
+    border-radius: 20px;
+    padding: 40px 92px 62px;
+}
+
+#pick-and-feed-content {
+    
+}
+
+#pick-and-feed-content h2 {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#pick-and-feed-content p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
 }
